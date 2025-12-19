@@ -26,7 +26,7 @@ const plans = [
   },
   {
     name: "Premium",
-    price: "₹399",
+    price: "₹299",
     description: "Complete career profile upgrade",
     features: [
       "Resume + LinkedIn optimization",
