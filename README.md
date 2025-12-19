@@ -7,7 +7,7 @@ This project showcases professional services such as resume writing, LinkedIn op
 ---
 
 ## 🚀 Live Demo
-(Deploy link can be added here – Vercel / Netlify)
+(https://freelance-website-peach.vercel.app/)
 
 ---
 
