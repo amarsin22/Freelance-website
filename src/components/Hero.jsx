@@ -37,7 +37,7 @@ const Hero = () => {
                          rounded-xl font-semibold
                          transition-all duration-300"
             >
-              Get Started
+              Hire me
             </a>
 
             <span className="text-slate-400 text-sm">
