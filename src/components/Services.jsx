@@ -35,7 +35,10 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="py-24 px-6 md:px-20 bg-slate-900 text-white">
+    <section
+      id="services"
+      className="scroll-mt-24 py-24 px-6 md:px-20 bg-slate-900 text-white"
+    >
       <h2 className="text-3xl font-bold text-center mb-4">
         My Services
       </h2>
@@ -71,9 +74,15 @@ const Services = () => {
               {service.details}
             </p>
 
-            <div className="mt-6 text-sky-400 font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              Learn more →
-            </div>
+            {/* CTA */}
+            <a
+              href="#contact"
+              className="inline-block mt-6 text-sky-400 font-medium
+                         opacity-0 group-hover:opacity-100
+                         transition-opacity duration-300"
+            >
+              Get started →
+            </a>
           </motion.div>
         ))}
       </div>

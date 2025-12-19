@@ -10,14 +10,17 @@ const highlights = [
     desc: "Special focus on freshers and early-career professionals.",
   },
   {
-    title: "Result Oriented",
-    desc: "Focused on interview calls, not just design.",
+    title: "Result-Oriented",
+    desc: "Focused on interview calls, not just visual design.",
   },
 ];
 
 const About = () => {
   return (
-    <section className="py-24 px-6 md:px-20 bg-slate-950 text-white">
+    <section
+      id="about"
+      className="scroll-mt-24 py-24 px-6 md:px-20 bg-slate-950 text-white"
+    >
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         
         {/* Left: About Me Text */}
@@ -35,10 +38,18 @@ const About = () => {
             profiles, and interview confidence so they can get more interview calls.
           </p>
 
-          <p className="text-slate-400">
+          <p className="text-slate-400 mb-6">
             I focus on clarity, ATS optimization, and recruiter expectations.
             My goal is simple: help you present yourself confidently and professionally.
           </p>
+
+          {/* CTA */}
+          <a
+            href="#contact"
+            className="inline-block text-sky-400 font-medium hover:underline"
+          >
+            Let’s work together →
+          </a>
         </motion.div>
 
         {/* Right: Interactive Highlights */}
