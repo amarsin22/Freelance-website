@@ -6,7 +6,7 @@ const projects = [
     description:
       "A premium freelancing website built with React to showcase services, testimonials, and contact options.",
     tech: ["React", "Tailwind CSS", "Framer Motion"],
-    live: "https://amar-freelance.vercel.app/",
+    live: "https://freelance-website-peach.vercel.app/",
     github: "https://github.com/amarsin22",
   },
   {
